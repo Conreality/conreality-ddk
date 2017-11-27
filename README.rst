@@ -13,3 +13,28 @@ Conreality Driver Development Kit (DDK) for C++
 |
 
 https://ddk.conreality.org/cxx/
+
+Installation
+============
+
+Installation from Source Code
+-----------------------------
+
+::
+
+   $ ./autogen.sh   # only needed for the development version from Git
+
+   $ ./configure
+
+   $ make
+
+   $ sudo make install
+
+See Also
+========
+
+* `Conreality Hardware Abstraction Layer (HAL)
+  <https://github.com/conreality/conreality-hal>`__
+
+* `Conreality Software Development Kit (SDK) for C++
+  <https://github.com/conreality/conreality-sdk>`__
