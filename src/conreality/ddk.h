@@ -3,4 +3,7 @@
 #ifndef CONREALITY_DDK_H
 #define CONREALITY_DDK_H
 
+#include "ddk/input.h"
+#include "ddk/output.h"
+
 #endif /* CONREALITY_DDK_H */
