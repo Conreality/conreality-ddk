@@ -34,10 +34,16 @@ public:
     }
   }
 
+ /**
+  * Determines whether this stream is closed.
+  */
   bool is_closed() const {
     return !is_open();
   }
 
+ /**
+  * Determines whether this stream is open.
+  */
   bool is_open() const {
     return true; // TODO
   }
