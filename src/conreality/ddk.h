@@ -5,5 +5,6 @@
 
 #include "ddk/input.h"
 #include "ddk/output.h"
+#include "ddk/stream.h"
 
 #endif /* CONREALITY_DDK_H */

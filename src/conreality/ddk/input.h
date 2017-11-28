@@ -3,24 +3,16 @@
 #ifndef CONREALITY_DDK_INPUT_H
 #define CONREALITY_DDK_INPUT_H
 
+#include "stream.h"
+
 namespace conreality {
   namespace ddk {
     class input;
   }
 }
 
-class conreality::ddk::input {
-protected:
-  int _fd;
-
+class conreality::ddk::input : public conreality::ddk::stream {
 public:
-  bool is_closed() const {
-    return !is_open();
-  }
-
-  bool is_open() const {
-    return true; // TODO
-  }
 };
 
 #endif /* CONREALITY_DDK_INPUT_H */
