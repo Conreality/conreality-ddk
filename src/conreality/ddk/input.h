@@ -3,7 +3,7 @@
 #ifndef CONREALITY_DDK_INPUT_H
 #define CONREALITY_DDK_INPUT_H
 
-#include <cstdio> /* for STDIN_FILENO */
+#include <unistd.h> /* for STDIN_FILENO */
 
 #include "stream.h"
 
