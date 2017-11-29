@@ -88,6 +88,10 @@ AM_CPPFLAGS="$AM_CPPFLAGS -I\$(top_srcdir)/src"
 AC_SUBST([AM_CPPFLAGS])
 
 dnl Check for library functions:
+AC_CHECK_FUNCS_ONCE([fstatat])
+AC_CHECK_FUNCS_ONCE([openat])
+AC_CHECK_FUNCS_ONCE([fdopendir])
+AC_CHECK_FUNCS_ONCE([dirfd])
 
 dnl Check for system services:
 
